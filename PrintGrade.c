@@ -10,10 +10,12 @@ int ID[30] = {5301, 5302, 5303, 5304, 5305, 5306};
 float GPA[30] = {3.73, 2.35, 3.65, 3.24, 1.32, 3.26}; 
   
 int N = 6, i;
-  int SearchID, found_index; 
+  
+int SearchID, found_index; 
  
   printf("\nSTUDENT GPA LIST: \n"); 
-  printf("ID----Name------------------------GPA\n"); 
+ 
+ printf("ID----Name------------------------GPA\n"); 
   for (i=0;i<N; i++)
     printf("%5d %-25s %5.2f\n", ID[i], Name[i], GPA[i]); 
   printf("-------------------------------------\n");
